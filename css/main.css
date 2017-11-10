@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.board {
+    margin: 100px auto;
+    
+}
+
+.board td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.board td:hover {
+    background-color: gray;
+}
